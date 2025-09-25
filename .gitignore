@@ -1,0 +1,46 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+*.sqlite3
+
+# Env/Virtualenv
+venv/
+env/
+ENV/
+.env
+.env.*   # caso tenha outros arquivos de configuração
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+.history/
+*.code-workspace
+
+# =========================
+# Byte-compiled / cache
+# =========================
+*.cache
+*.pytest_cache/
+.pytest_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
